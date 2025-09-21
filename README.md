@@ -1,5 +1,5 @@
+# Cellestial-Website
 
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/datavil/cellestial-examples.git
-git push -u origin master
+This repository is for Cellestial examples.
+
+For main repository go to https://github.com/DataVil/Cellestial
