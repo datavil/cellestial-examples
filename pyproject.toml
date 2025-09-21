@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "cairosvg>=2.8.2",
+    "cellestial>=0.7.1",
+    "ipykernel>=6.30.1",
+    "pooch>=1.8.2",
+    "pyarrow>=18.1.0",
+    "pycairo>=1.28.0",
+    "ruff>=0.13.1",
+    "scanpy[leiden]>=1.11.4",
+    "scvelo>=0.3.3",
+]
