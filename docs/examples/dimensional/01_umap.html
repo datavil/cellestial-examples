@@ -330,7 +330,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="cell-1" class="cell" data-execution_count="8">
+<div id="cell-1" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cellestial <span class="im">as</span> cl</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scanpy <span class="im">as</span> sc</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> lets_plot <span class="im">import</span> <span class="op">*</span></span>
@@ -340,7 +340,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> sc.read(<span class="st">"data/pbmc3k_pped.h5ad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 
-            <div id="M9hGWe"></div>
+            <div id="lvv2hO"></div>
             <script type="text/javascript" data-lets-plot-script="library">
                 if(!window.letsPlotCallQueue) {
                     window.letsPlotCallQueue = [];
@@ -364,9 +364,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                         var div = document.createElement("div");
                         div.style.color = 'darkred';
                         div.textContent = 'Error loading Lets-Plot JS';
-                        document.getElementById("M9hGWe").appendChild(div);
+                        document.getElementById("lvv2hO").appendChild(div);
                     };
-                    var e = document.getElementById("M9hGWe");
+                    var e = document.getElementById("lvv2hO");
                     e.appendChild(script);
                 })()
             </script>
@@ -375,7 +375,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <section id="a-simple-umap-plot" class="level3" data-number="3.0.1">
 <h3 data-number="3.0.1" class="anchored" data-anchor-id="a-simple-umap-plot"><span class="header-section-number">3.0.1</span> A simple <code>umap</code> plot</h3>
-<div id="cell-3" class="cell" data-execution_count="9">
+<div id="cell-3" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>plot <span class="op">=</span> cl.umap(</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    data,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    key<span class="op">=</span><span class="st">"leiden"</span>,</span>
@@ -385,8 +385,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    add_tooltips<span class="op">=</span>[<span class="st">"sample"</span>],</span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>plot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="9">
-   <div id="0FNvfv"></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+   <div id="lEvvr5"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
    
    (function() {
@@ -411,7 +411,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
        };
    }
    
-   const containerDiv = document.getElementById("0FNvfv");
+   const containerDiv = document.getElementById("lEvvr5");
    let fig = null;
    
    function renderPlot() {
@@ -569,7 +569,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 }],
 "metainfo_list":[],
-"spec_id":"5"
+"spec_id":"1"
 };
            window.letsPlotCall(function() { fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, containerDiv, sizing); });
        } else {
@@ -617,10 +617,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="of-course-it-is-possible-to-customize-the-plot" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="of-course-it-is-possible-to-customize-the-plot"><span class="header-section-number">3.1</span> Of course, it is possible to customize the plot</h2>
-<div id="cell-5" class="cell" data-execution_count="10">
+<div id="cell-5" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>plot <span class="op">+</span> scale_color_hue()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="10">
-   <div id="1yz69T"></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+   <div id="DEKNwR"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
    
    (function() {
@@ -645,7 +645,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
        };
    }
    
-   const containerDiv = document.getElementById("1yz69T");
+   const containerDiv = document.getElementById("DEKNwR");
    let fig = null;
    
    function renderPlot() {
@@ -806,7 +806,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 }],
 "metainfo_list":[],
-"spec_id":"6"
+"spec_id":"2"
 };
            window.letsPlotCall(function() { fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, containerDiv, sizing); });
        } else {
@@ -854,10 +854,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="you-can-also-use-a-gene-a-key." class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="you-can-also-use-a-gene-a-key."><span class="header-section-number">3.2</span> You can also use a gene a key.</h2>
-<div id="cell-7" class="cell" data-execution_count="11">
+<div id="cell-7" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>cl.umap(data, <span class="st">"NEAT1"</span>, color_high<span class="op">=</span><span class="st">"#D2042D"</span>, add_tooltips<span class="op">=</span>[<span class="st">"leiden"</span>, <span class="st">"sample"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="11">
-   <div id="zhxKw5"></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+   <div id="gSH6K9"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
    
    (function() {
@@ -882,7 +882,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
        };
    }
    
-   const containerDiv = document.getElementById("zhxKw5");
+   const containerDiv = document.getElementById("gSH6K9");
    let fig = null;
    
    function renderPlot() {
@@ -995,7 +995,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 }],
 "metainfo_list":[],
-"spec_id":"7"
+"spec_id":"3"
 };
            window.letsPlotCall(function() { fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, containerDiv, sizing); });
        } else {
@@ -1044,7 +1044,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="it-is-possible-to-use-legends-on-the-data" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="it-is-possible-to-use-legends-on-the-data"><span class="header-section-number">3.3</span> It is possible to use legends on the data</h2>
 <p>Note that this is only applicable to categorical data.</p>
-<div id="cell-9" class="cell" data-execution_count="14">
+<div id="cell-9" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>cl.umap(</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    data,</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    key<span class="op">=</span><span class="st">"leiden"</span>,</span>
@@ -1053,8 +1053,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    ondata_size<span class="op">=</span><span class="dv">15</span>,</span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    ondata_fontface<span class="op">=</span><span class="st">"plain"</span>,</span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="14">
-   <div id="KMbDZ6"></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+   <div id="rQvN59"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
    
    (function() {
@@ -1079,7 +1079,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
        };
    }
    
-   const containerDiv = document.getElementById("KMbDZ6");
+   const containerDiv = document.getElementById("rQvN59");
    let fig = null;
    
    function renderPlot() {
@@ -1189,9 +1189,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 },{
 "geom":"text",
 "data":{
-"leiden":["6","3","18","12","15","9","0","4","7","19","10","16","1","13","5","11","2","8","17","14"],
-"umap1":[8.837965940336185,9.725643472755511,3.0959351260048376,4.426524619352509,7.135263843085132,-3.4500831697825447,15.826379093017348,6.878768551264158,16.095873009782835,-0.020724239352708406,3.1504243483765597,6.053424831624223,12.222493445875891,9.950664703442527,0.541698181795051,5.041740792714167,-2.777927337873424,10.684531217904517,2.937921873842775,7.115399193244146],
-"umap2":[6.0649849698982825,17.77784887759929,17.89192227763988,14.795254364746958,17.04293408929675,3.0600701140499362,7.716197775731379,-4.370121556941314,11.264301100168712,11.37248840143334,5.464118241676258,-0.5623561092555845,3.7410049638327094,-1.8506818969155914,1.5394305716740306,8.498479385906839,11.356644455986498,9.192157831922357,-1.3618256464484193,10.159249471173172]
+"leiden":["18","12","3","9","6","0","15","4","1","13","16","7","19","10","2","8","5","11","14","17"],
+"umap1":[3.0959351260048376,4.426524619352509,9.725643472755511,-3.4500831697825447,8.837965940336185,15.826379093017348,7.135263843085132,6.878768551264158,12.222493445875891,9.950664703442527,6.053424831624223,16.095873009782835,-0.020724239352708406,3.1504243483765597,-2.777927337873424,10.684531217904517,0.541698181795051,5.041740792714167,7.115399193244146,2.937921873842775],
+"umap2":[17.89192227763988,14.795254364746958,17.77784887759929,3.0600701140499362,6.0649849698982825,7.716197775731379,17.04293408929675,-4.370121556941314,3.7410049638327094,-1.8506818969155914,-0.5623561092555845,11.264301100168712,11.37248840143334,5.464118241676258,11.356644455986498,9.192157831922357,1.5394305716740306,8.498479385906839,10.159249471173172,-1.3618256464484193]
 },
 "mapping":{
 "x":"umap1",
@@ -1217,7 +1217,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 "alpha":1.0
 }],
 "metainfo_list":[],
-"spec_id":"9"
+"spec_id":"4"
 };
            window.letsPlotCall(function() { fig = LetsPlot.buildPlotFromProcessedSpecs(plotSpec, containerDiv, sizing); });
        } else {
@@ -1262,7 +1262,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    </script>
 </div>
 </div>
-<div id="cell-10" class="cell" data-execution_count="13">
+<div id="cell-10" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>cl.versions()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>cellestial: 0.6.0
